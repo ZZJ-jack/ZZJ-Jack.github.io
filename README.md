@@ -1,4 +1,4 @@
-[Hux Blog](https://huangxuan.me)
+[ZZJ Blog](https://zzj-jack.github.io)
 ================================
 
 > I never expected this to become popular.
