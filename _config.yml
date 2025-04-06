@@ -14,7 +14,7 @@ future: true
 # SNS settings
 RSS: false
 #weibo_username: zzj
-#zhihu_username: zzj
+zhihu_username: 1-70-19-58-89
 github_username: zzj-jack
 #twitter_username: huxpro
 #facebook_username:  huxpro
