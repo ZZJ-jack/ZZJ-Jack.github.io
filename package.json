@@ -6,9 +6,9 @@
     "homepage": "http://zzj-jack.github.io",
     "repository": {
         "type": "git",
-        "url": "https://github.com/ZZJ-jack/zzj-jack.github.io"
+        "url": "https://github.com/ZZJ-jack/ZZJ-jack.github.io"
     },
-    "bugs": "https://github.com/Huxpro/huxpro.github.io/issues",
+    "bugs": "https://github.com/ZZJ-jack/ZZJ-jack.github.io/issues",
     "devDependencies": {
         "grunt": ">=1.3.0",
         "grunt-banner": "~0.2.3",
