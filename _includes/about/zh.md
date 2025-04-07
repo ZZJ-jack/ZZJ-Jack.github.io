@@ -1,5 +1,13 @@
-Hey，我是ZZJ（ZZJ-jack），一个略懂计算机科学与艺术的斜杆不动青年
+Hey，我是ZZJ（ZZJ-jack），一个略懂计算机科学与艺术的青年
 
-在[洛谷](https://www.luogu.com.cn/user/1511341)、[gitee](https://gitee.com/zzj-jack)、[gitcode](https://gitcode.com/ZZJ-JACK)、[github](https://github.com/ZZJ-JACK)等都有个人账号
+### 本人账号
 
-[QQ邮箱](zzj-jack@qq.com)
+#### [洛谷](https://www.luogu.com.cn/user/1511341)
+
+#### [gitee](https://gitee.com/zzj-jack)
+
+#### [gitcode](https://gitcode.com/ZZJ-JACK)
+
+#### [github](https://github.com/ZZJ-JACK)
+
+注：本站源于[GitHub](https://github.com)@[Huxpro](https://github.com/Huxpro)的开源项目，托管在[GitHub](https://github.com)
