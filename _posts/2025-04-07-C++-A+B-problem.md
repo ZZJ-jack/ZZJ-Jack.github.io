@@ -21,6 +21,7 @@ tags:
 
 ## 代码实现及注释
 
+
 ```cpp
 #include <bits/stdc++.h>  // 包含常用头文件，方便竞赛编程使用
 using namespace std;
@@ -69,3 +70,4 @@ int main() {
     
     return 0;
 }
+```
