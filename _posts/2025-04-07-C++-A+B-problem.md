@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "A*B problem（高精度）"
+title:        "C++ A*B problem（高精度）"
 author:       "ZZJ"
 header-style: text
 catalog:      true
