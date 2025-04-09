@@ -87,3 +87,10 @@ service-worker: true
 
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false
+
+friends: [
+    {
+        title: "陈铭韬 Blog",
+        href: "http://2024chenmingtao.github.io/"
+    }
+]
