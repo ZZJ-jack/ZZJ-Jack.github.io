@@ -6,6 +6,7 @@ header-style: text
 catalog:      true
 tags: 
     - C++
+    - 高精度
 ---
 
 # C++ A*B problem（高精度算法）
