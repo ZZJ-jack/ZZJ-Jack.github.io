@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "C++ 二分"
+title:        "深入理解C++中的二分查找算法"
 author:       "ZZJ"
 header-style: text
 catalog:      true
@@ -8,8 +8,6 @@ tags:
     - C++
     - 二分
 ---
-
-# 深入理解C++中的二分查找算法
 
 ## 一、什么是二分查找？
 
