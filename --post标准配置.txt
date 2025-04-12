@@ -1,8 +1,0 @@
-直接粘贴以下到.markdown文件里，并用```包裹
-layout:       post
-title:        "标题"
-author:       "作者"
-header-style: text
-catalog:      true
-tags: 
-    - 标签
