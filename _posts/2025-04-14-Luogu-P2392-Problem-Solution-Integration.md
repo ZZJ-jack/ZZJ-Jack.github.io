@@ -2,7 +2,8 @@
 layout:     post
 title:      "洛谷P2392 题解整合"
 date:       2025-04-14
-author:     "Hux"
+author:     "ZZJ"
+header-style: text
 catalog: true
 tags:
     - C++
