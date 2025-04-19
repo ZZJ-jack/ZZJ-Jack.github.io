@@ -22,45 +22,38 @@ tags:
  * 核心思想：将每个科目的题目分配到左/右脑，求最小化最大耗时
  * 时间复杂度：O(2^n) 每个科目独立处理
  */
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-// 全局状态记录
-int Left, Right;    // 左右脑当前累计耗时
-int minn;           // 当前科目最小化最大耗时
-int ans;            // 四科目总耗时
-int s[5];           // s[1]-s[4]存储四科题目数
-int a[21][5];       // a[题号][科目] 存储具体耗时
+int s[5], hw[5][61];  // s[1]-s[4]：四科知识点数，hw[i][j]：第i科第j知识点耗时
+int minn, ans;        // minn：单科最优解，ans：四科最优解总和
 
-void search(int x, int y) { // x:当前题号，y:科目编号
-    if(x > s[y]) {          // 终止条件：处理完当前科目所有题目
-        minn = min(minn, max(Left, Right)); // 更新最小值
+// DFS枚举分组：l左组耗时，r右组耗时，id当前知识点，sub当前科目
+void dfs(int l, int r, int id, int sub) {
+    if (id > s[sub]) {                // 终止条件：所有知识点分配完毕
+        minn = min(minn, max(l, r));  // 关键策略：取两组的最大耗时，更新最小最大耗时
         return;
     }
-    // 尝试分配给左脑
-    Left += a[x][y];  
-    search(x+1, y);         // 递归处理下一题
-    Left -= a[x][y];        // 回溯
-    
-    // 尝试分配给右脑
-    Right += a[x][y];  
-    search(x+1, y);         // 递归处理下一题
-    Right -= a[x][y];       // 回溯
+    // 核心决策：将当前知识点加入左组或右组，生成两种分支（类似01背包决策树）
+    dfs(l + hw[sub][id], r, id + 1, sub);  // 左分支：当前知识点归左组
+    dfs(l, r + hw[sub][id], id + 1, sub);  // 右分支：当前知识点归右组
 }
 
 int main() {
-    for(int i=1; i<=4; i++) cin>>s[i]; // 读取各科题目数
+    // 输入四科知识点数量（注意题目输入顺序）
+    for (int i = 1; i <= 4; i++) cin >> s[i];
     
-    for(int i=1; i<=4; i++) {  // 分别处理四科目
-        Left = Right = 0;      // 重置状态
-        minn = INT_MAX;       // 初始化极大值
-        for(int j=1; j<=s[i]; j++) 
-            cin>>a[j][i];     // 读取当前科目各题耗时
-            
-        search(1, i);         // 开始递归搜索
-        ans += minn;          // 累加各科最优解
+    // 分层处理四科数据（各科独立处理）
+    for (int i = 1; i <= 4; i++) {
+        // 输入当前科目知识点耗时（按s[i]数量读取）
+        for (int j = 1; j <= s[i]; j++) cin >> hw[i][j];
+        
+        minn = INT_MAX;        // 初始化极值（寻找最小值）
+        dfs(0, 0, 1, i);       // 启动DFS（初始两组均为0耗时，从第一个知识点开始）
+        ans += minn;           // 核心逻辑：各科最优解累加得总答案
     }
-    cout << ans;
+    
+    cout << ans;  // 输出：四科最小总耗时之和
     return 0;
 }
 ```
