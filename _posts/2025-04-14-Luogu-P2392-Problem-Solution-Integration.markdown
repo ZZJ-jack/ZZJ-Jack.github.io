@@ -8,6 +8,7 @@ catalog: true
 tags:
     - C++
     - 洛谷
+    - 题解
 ---
 
 ## 题目
