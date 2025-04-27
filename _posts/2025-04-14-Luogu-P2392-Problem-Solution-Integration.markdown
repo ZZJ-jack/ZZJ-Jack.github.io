@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "洛谷P2392 题解整合"
-date:       2025-04-14
+title:      "洛谷P2392题解整合"
+date:       2025-04-25
 author:     "ZZJ"
 header-style: text
 catalog: true
@@ -15,7 +15,7 @@ tags:
 
 [点击跳题](https://www.luogu.com.cn/problem/P2392)
 
-## 题解
+## 详细题解
 
 ### 方法一：递归回溯法
 ```cpp
