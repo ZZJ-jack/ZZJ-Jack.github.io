@@ -92,5 +92,9 @@ friends: [
     {
         title: "陈铭韬 Blog",
         href: "http://2024chenmingtao.github.io/"
+    },
+    {
+        title: "曹晨鑫 Blog",
+        href: "http://caocx.dpdns.org"
     }
 ]
