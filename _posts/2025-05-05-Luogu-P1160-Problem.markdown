@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "洛谷P1160 队列安排题解"
+title:        "洛谷P1160队列安排题解"
 author:       "ZZJ"
 header-style: text
 catalog:      true
