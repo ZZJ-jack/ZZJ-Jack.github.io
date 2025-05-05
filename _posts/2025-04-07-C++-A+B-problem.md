@@ -1,6 +1,7 @@
 ---
 layout:       post
 title:        "C++ A*B problem（高精度）"
+date:         2025-04-07
 author:       "ZZJ"
 header-style: text
 catalog:      true
