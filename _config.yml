@@ -88,13 +88,15 @@ service-worker: true
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false
 
-friends: [
+friends: [ 
     {
         title: "陈铭韬 Blog",
-        href: "http://2024chenmingtao.github.io/"
-    },
-    {
+        href: "https://2024chenmingtao.github.io"
+    }, {
         title: "曹晨鑫 Blog",
-        href: "http://caocx.dpdns.org"
+        href: "https://caocx.dpdns.org"
+    }, {
+        title: "纪畅 Blog",
+        href: "https://jimmyflower6.github.io"
     }
 ]
