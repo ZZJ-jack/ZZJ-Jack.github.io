@@ -1,6 +1,7 @@
 ---
 layout:       post
 title:        "洛谷P1160队列安排题解"
+date:         2025-05-05
 author:       "ZZJ"
 header-style: text
 catalog:      true
