@@ -90,13 +90,13 @@ page-mathjax: false
 
 friends: [ 
     {
-        title: "陈铭韬 Blog",
+        title: "CMT Blog",
         href: "https://2024chenmingtao.github.io"
     }, {
-        title: "曹晨鑫 Blog",
+        title: "CCX Blog",
         href: "https://caocx.dpdns.org"
     }, {
-        title: "纪畅 Blog",
+        title: "JC Blog",
         href: "https://jimmyflower6.github.io"
     }
 ]
