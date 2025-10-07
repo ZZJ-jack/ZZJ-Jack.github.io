@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "DilWorth"
+title:        "用简单的方法讲解DilWorth"
 date:         2025-10-7
 author:       "ZZJ"
 header-style: text
