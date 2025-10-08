@@ -88,8 +88,13 @@ service-worker: true
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false
 
-friends: [ 
-    {
+friends: [ {
+        title: "ZZJ-JACK的主站",
+        href: "https://zzjjack.us.kg"
+    }, {
+        title: "ZZJ-JACK网站监测",
+        href: "https://status.zzjjack.us.kg"
+    }, {
         title: "CMT Blog",
         href: "https://2024chenmingtao.github.io"
     }, {
