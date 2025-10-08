@@ -13,9 +13,7 @@ tags:
     - 笔记
 ---
 
-
-<iframe height=300 width=350 src="https://upos-sz-estghw.bilivideo.com/upgcxcode/08/26/209602608/209602608-1-208.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&trid=4b4cc7e029754ada95aaea49733e37eT&mid=3546831675984065&nbs=1&uipk=5&gen=playurlv3&os=estghw&og=hw&oi=2018263300&platform=html5&deadline=1759899500&upsig=224175d2e4de573d52767bfa21694ce0&uparams=e,trid,mid,nbs,uipk,gen,os,og,oi,platform,deadline&bvc=vod&nettype=0&bw=579571&mobi_app=&agrr=0&buvid=&build=0&dl=0&f=T_0_0&orderid=0,1">
-
+## 超详细讲解区间DP
 ### 🌰 **举个栗子：班级分组做游戏**
 假设你是班长，要把**30个同学分成相邻小组**完成任务。规则：
 1. 每个小组有基础得分（人数越多分越高）
@@ -103,8 +101,6 @@ for 区间长度 L in 2 → 30:          # 先算2人组，再3人组...最后30
 
 ### 一、[NOI 1995] 石子合并
 
-
-<iframe height=300 width=350 src="https://upos-sz-mirrorzos.bilivideo.com/upgcxcode/04/73/966147304/966147304-1-208.mp4?e=ig8euxZM2rNcNbRznwdVhwdlhWh3hwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&mid=0&nbs=1&platform=html5&uipk=5&oi=2018263300&gen=playurlv3&os=zosbv&trid=e39c4ced9b164c84886ac9c0e349457h&deadline=1759898741&og=hw&upsig=6da3c001d0decae3131f0a02c334c423&uparams=e,mid,nbs,platform,uipk,oi,gen,os,trid,deadline,og&bvc=vod&nettype=0&bw=1110857&build=0&dl=0&f=h_0_0&agrr=0&buvid=&orderid=0,1">
 
 #### 🔥 问题定义
 **输入**：`stones = [4, 1, 3, 2]`（四堆石子，初始合并代价=石子重量）  
@@ -335,15 +331,14 @@ int longestPalindromeSubseq(string s) {
 
 ---
 
-### 二、戳气球（LeetCode 312）
+### 三、戳气球（LeetCode 312）
 
-
-<iframe height=300 width=350  src="https://upos-sz-estgcos.bilivideo.com/upgcxcode/69/92/1576539269/1576539269-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&nbs=1&uipk=5&trid=4647c03bd7d44dec8fb5776f1da2294T&deadline=1759899415&gen=playurlv3&oi=2018263300&mid=3546912105957579&platform=html5&os=estgcos&og=cos&upsig=39a850cbea7e3fb54294a9ca08caec32&uparams=e,nbs,uipk,trid,deadline,gen,oi,mid,platform,os,og&bvc=vod&nettype=0&bw=213030&mobi_app=&agrr=0&buvid=&build=0&dl=0&f=T_0_0&orderid=0,1">
 
 #### 🎯 问题定义
 **输入**：气球数组 `nums = [3, 1, 5, 8]`  
 **输出**：最大硬币数（戳破所有气球的累计值）  
 **规则**：
+
 - 戳破气球 `i` 获 `nums[i-1] * nums[i] * nums[i+1]` 硬币
 - 边界虚拟气球值 `=1`
 
