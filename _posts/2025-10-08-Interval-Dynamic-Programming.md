@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "用简单的方法讲解区间DP"
+title:        "超详细讲解区间DP"
 date:         2025-10-8
 author:       "ZZJ"
 header-style: text
